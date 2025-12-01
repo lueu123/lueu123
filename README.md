@@ -3,6 +3,8 @@ currently just having fun learning
 
 if an idea pops into my head i'll try to create it
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 <!--
 **lueu123/lueu123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

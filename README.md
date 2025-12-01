@@ -1,4 +1,7 @@
 ## Hi there 👋
+currently just having fun learning
+
+if an idea pops into my head i'll try to create it
 
 <!--
 **lueu123/lueu123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

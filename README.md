@@ -1,12 +1,3 @@
-<h1 align="center">Hi there 👋</h1>
-
-<p align="center">
-  Currently just having fun learning <br>
-  if an idea pops into my head, I'll try to create it.
-</p>
-
----
-
 ### Languages
 
 <p align="left">
@@ -49,4 +40,3 @@
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
 </p>
 
----

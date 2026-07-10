@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="378" font-family="Consolas,&#39;Courier New&#39;,monospace" font-size="15px">
+<rect width="560" height="378" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"></rect>
+<text fill="#c9d1d9">
+<tspan x="28" y="44"><tspan fill="#7ee787">lueu123</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#7ee787">github</tspan></tspan>
+<tspan x="28" y="70" fill="#8b949e">----------------------------------------</tspan>
+<tspan x="28" y="96"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">OS</tspan><tspan fill="#8b949e">: ........................... </tspan><tspan fill="#c9d1d9">Arch Linux · Windows 10</tspan></tspan>
+<tspan x="28" y="122"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">Languages</tspan><tspan fill="#8b949e">: .................... </tspan><tspan fill="#c9d1d9">Python · JavaScript</tspan></tspan>
+<tspan x="28" y="148"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">Frontend</tspan><tspan fill="#8b949e">: ..................... </tspan><tspan fill="#c9d1d9">HTML5 · CSS3</tspan></tspan>
+<tspan x="28" y="174"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">Deploy</tspan><tspan fill="#8b949e">: ....................... </tspan><tspan fill="#c9d1d9">Docker · Vercel</tspan></tspan>
+<tspan x="28" y="200"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">Editor</tspan><tspan fill="#8b949e">: ....................... </tspan><tspan fill="#c9d1d9">VS Code</tspan></tspan>
+<tspan x="28" y="226"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">Design</tspan><tspan fill="#8b949e">: ....................... </tspan><tspan fill="#c9d1d9">After Effects · Figma</tspan></tspan>
+<tspan x="28" y="252"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">VCS</tspan><tspan fill="#8b949e">: .......................... </tspan><tspan fill="#c9d1d9">GitHub</tspan></tspan>
+<tspan x="28" y="278"><tspan fill="#8b949e">. </tspan><tspan fill="#58a6ff">Uptime</tspan><tspan fill="#8b949e">: ....................... </tspan><tspan fill="#c9d1d9">since 2024</tspan></tspan>
+</text>
+<rect x="28" y="312" width="18" height="18" rx="3" fill="#0d1117" stroke="#30363d"></rect>
+<rect x="52" y="312" width="18" height="18" rx="3" fill="#8b949e"></rect>
+<rect x="76" y="312" width="18" height="18" rx="3" fill="#7ee787"></rect>
+<rect x="100" y="312" width="18" height="18" rx="3" fill="#58a6ff"></rect>
+<rect x="124" y="312" width="18" height="18" rx="3" fill="#c9d1d9"></rect>
+</svg>

@@ -1,1 +1,1 @@
-![alt fastfetch](https://github.com/lueu123/lueu123/blob/main/fastfetch.svg)
+![alt fastfetch](https://github.com/lueu123/lueu123/blob/main/fastfetch2.svg)

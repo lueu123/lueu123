@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch LeetCode stats and patch them into fastfetch.svg."""
+"""Fetch LeetCode stats and patch them into fastfetch2.svg."""
 
 import json
 import pathlib
@@ -10,7 +10,7 @@ import urllib.request
 USERNAME = "lueu123"
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SVG_PATH = ROOT / "fastfetch.svg"
+SVG_PATH = ROOT / "fastfetch2.svg"
 
 QUERY = """
 query($u: String!) {
@@ -73,7 +73,7 @@ def main():
         flags=re.DOTALL,
     )
     if n != 1:
-        sys.exit(f"Expected 1 marker pair in fastfetch.svg, found {n}.")
+        sys.exit(f"Expected 1 marker pair in fastfetch2.svg, found {n}.")
 
     if new_svg == svg:
         print("No change.")

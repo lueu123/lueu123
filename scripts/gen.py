@@ -56,7 +56,7 @@ def fetch(username):
 def build_row(totals, solved):
     return (
         f'<tspan fill="#7ee787">{solved["All"]}</tspan>'
-        f'<tspan fill="#8b949e">/{totals["All"]} \u00b7 </tspan>'
+        f'<tspan fill="#8b949e"> \u00b7 </tspan>'
         f'<tspan fill="#7ee787">E {solved["Easy"]}</tspan>'
         f'<tspan fill="#8b949e"> \u00b7 </tspan>'
         f'<tspan fill="#d29922">M {solved["Medium"]}</tspan>'

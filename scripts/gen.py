@@ -14,7 +14,6 @@ SVG_PATH = ROOT / "fastfetch.svg"
 
 QUERY = """
 query($u: String!) {
-  allQuestionsCount { difficulty count }
   matchedUser(username: $u) {
     submitStatsGlobal {
       acSubmissionNum { difficulty count }
@@ -45,18 +44,15 @@ def fetch(username):
     if not data.get("matchedUser"):
         sys.exit(f"No such user (or profile is private): {username}")
 
-    totals = {x["difficulty"]: x["count"] for x in data["allQuestionsCount"]}
     solved = {
         x["difficulty"]: x["count"]
         for x in data["matchedUser"]["submitStatsGlobal"]["acSubmissionNum"]
     }
-    return totals, solved
+    return solved
 
 
-def build_row(totals, solved):
+def build_row(solved):
     return (
-        f'<tspan fill="#7ee787">{solved["All"]}</tspan>'
-        f'<tspan fill="#8b949e"> \u00b7 </tspan>'
         f'<tspan fill="#7ee787">E {solved["Easy"]}</tspan>'
         f'<tspan fill="#8b949e"> \u00b7 </tspan>'
         f'<tspan fill="#d29922">M {solved["Medium"]}</tspan>'
@@ -66,8 +62,8 @@ def build_row(totals, solved):
 
 
 def main():
-    totals, solved = fetch(USERNAME)
-    row = build_row(totals, solved)
+    solved = fetch(USERNAME)
+    row = build_row(solved)
 
     svg = SVG_PATH.read_text(encoding="utf-8")
     new_svg, n = re.subn(
@@ -84,7 +80,7 @@ def main():
         return
 
     SVG_PATH.write_text(new_svg, encoding="utf-8")
-    print(f"Updated: {solved['All']}/{totals['All']} solved")
+    print(f"Updated: {solved['All']} solved")
 
 
 if __name__ == "__main__":
